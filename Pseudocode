@@ -1,0 +1,26 @@
+                                         Pseudocode
+
+Task: Verilmiş n - ədədinin 3-ə və 7-ə bölünüb-bölünməməsini tapın
+
+
+START n ədədi
+     n bərabərdimi 0?
+     ekrana yazdir "0-dan ferqli eded daxil edi"
+     
+     eger n%3 == 0 ve n%7 == 0
+     ekrana yazdir "n ədədi 3 və 7-yə bölünür"
+     əks halda
+     ekrana yazdir "n ədədi 3 və 7-yə bölünmür"
+
+
+
+Start 
+     input n;
+       
+     if (n == 0):
+     print ("O-dan fərqli ədəd daxil edin")
+
+     if(n%3 == 0 && n%7 == 0)
+     print ("n ədədi 3 və 7-yə bölünür");
+     else
+     print ("n ədədi 3 və 7-yə bölünmür");
